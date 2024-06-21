@@ -1,0 +1,22 @@
+# PURL configuration for https://purl.brain-bican.org/taxonomy/AIT117
+
+idspace: AIT117
+base_url: /taxonomy/AIT117
+
+products:
+- AIT117.json: https://raw.githubusercontent.com/hkir-dev/nhp_basal_ganglia_taxonomy_v2/main/AIT117.json
+
+base_redirect: https://github.com/hkir-dev/nhp_basal_ganglia_taxonomy_v2
+
+entries:
+
+# https://purl.brain-bican.org/taxonomy/AIT117/AIT117.json
+- exact: /AIT117.json
+  replacement: https://raw.githubusercontent.com/hkir-dev/nhp_basal_ganglia_taxonomy_v2/main/AIT117.json
+
+# https://purl.brain-bican.org/taxonomy/AIT117/releases/2023-09-24/AIT117.json
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/hkir-dev/nhp_basal_ganglia_taxonomy_v2/v
+  tests:
+    - from: /releases/2023-09-24/
+      to: https://raw.githubusercontent.com/hkir-dev/nhp_basal_ganglia_taxonomy_v2/v2023-09-24/

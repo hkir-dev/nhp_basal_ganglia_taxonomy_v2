@@ -1,0 +1,12 @@
+id: AIT117
+title: NHP Basal Ganglia taxonomy
+description: Atlas of non-human primate basal ganglia, developed in collaboration with the BRAIN Initiative Cell Census Network (BICCN).
+matrix_file_id: local_dataset:nhp_basal_ganglia_taxonomy_v2
+github_org: hkir-dev
+repo: nhp_basal_ganglia_taxonomy_v2
+author: https://orcid.org/0000-0002-4436-969X
+accession_id_prefix: AIT117
+citation: ''
+creators:
+  - https://orcid.org/0000-0002-4436-969X
+
